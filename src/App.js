@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Cart from './Cart';
 import Menu from './Menu';
 import Footer from './Footer';
+import Feature from './Feature';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Cart />
       <Menu />
+      <Feature />
       <Footer />
 
       {/* <Hero />
