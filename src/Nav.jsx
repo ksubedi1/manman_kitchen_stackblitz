@@ -2,7 +2,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import logo from "../asset/logo.png";
+import myLogo from "../asset/myLogo.jpg";
 
 
 const navigation = [
@@ -39,7 +39,7 @@ function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
-                    src={logo.png}
+                    src={myLogo.jpg}
                     alt="logo"
                   />
                   <img
